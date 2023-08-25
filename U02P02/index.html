@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>TABLA SIMPLE</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Teléfono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Victoria</td>
+                <td>Menna</td>
+                <td>18 años</td>
+                <td>123456789</td>
+            </tr>
+            <tr>
+                <td>Juana</td>
+                <td>González</td>
+                <td>12 años</td>
+                <td>987654321</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Pérez</td>
+                <td>56 años</td>
+                <td>789456123</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <caption>TABLA COMPLEJA</caption>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Código</th>
+                <th>Stock</th>
+                <th colspan="2">Precio minorista / Precio mayorista</th>
+                <th>Comprar online</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Remera roja</td>
+                <td>1234</td>
+                <td rowspan="2">SIN STOCK</td>
+                <td>$3800</td>
+                <td>$2500</td>
+                <td><a href="https://articulo.mercadolibre.com.ar/MLA-1382069139-remera-mujer-basica-cuello-redondo-morley-dama-_JM?searchVariation=179357035945#searchVariation=179357035945&position=4&search_layout=grid&type=item&tracking_id=d33ede12-f2ca-4690-bac8-abd1c56ce233" target="_blank">Comprar</a></td>
+            </tr>
+            <tr>
+                <td>Pollera de jean</td>
+                <td>5678</td>
+                <td>$9599</td>
+                <td>$7750</td>
+                <td><a href="https://articulo.mercadolibre.com.ar/MLA-1110778828-pollera-de-jean-elastizado-clasica-desflecada-_JM#position=31&search_layout=grid&type=item&tracking_id=aceeaf9c-a1d0-4514-bdbf-a3398fb998e3" target="_blank">Comprar</a></td>
+            </tr>
+            <tr>
+                <td>Vestido plateado</td>
+                <td>9101</td>
+                <td>5 unidades</td>
+                <td>$13990</td>
+                <td>$10400</td>
+                <td><a href="https://articulo.mercadolibre.com.ar/MLA-1470398714-vestido-corto-mujer-lentejuelas-espalda-abierta-c-2-tiras-_JM?attributes=COLOR_SECONDARY_COLOR%3AUGxhdGEgQ2xhcm8%3D&quantity=1" target="_blank">Comprar</a></td>
+            </tr>
+            <tr>
+                <td>Gorra negra</td>
+                <td>1112</td>
+                <td>17 unidades</td>
+                <td>$2200</td>
+                <td>$1300</td>
+                <td><a href="https://articulo.mercadolibre.com.ar/MLA-1382405047-gorra-trucker-negra-completa-_JM?searchVariation=179370334325#searchVariation=179370334325&position=34&search_layout=grid&type=item&tracking_id=67eec256-ca33-454e-a455-de8af7c6b868" target="_blank">Comprar</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
