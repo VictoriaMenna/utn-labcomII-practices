@@ -23,7 +23,36 @@
                 <li><a href="contact.html">Contacto</a></li>
             </ul>
         </nav>
-
+        <main>
+            <table>
+                <tbody>
+                    <form>
+                        <tr>
+                            <td><label for="nombre"><b>Nombre:</b></label></td>
+                            <td><input type="text" id="nombre" name="nombre" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email"><b>Email:</b></label></td>
+                            <td><input type="email" id="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="edad"><b>Edad:</b></label></td>
+                            <td><input type="number" id="edad" name="edad"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="color"><b>Color preferido:</b></label></td>
+                            <td><input type="color" id="color" name="color"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="comentario"><b>Comentario:</b></label></td>
+                            <td><textarea id="comentario" name="comentario" minlength="10"></textarea>
+                            </td>
+                        </tr>
+                    </form>
+                </tbody>
+            </table>
+            <input type="submit" value="Submit">
+        </main>
         <!-- Contenedor secundario / derecho -->
         <div class="right">
             <h2>¿Dónde verla?</h2>
