@@ -46,14 +46,14 @@ nav {
 }
 
 .nav-item:hover {
-    background-color:#F8230F;
+    background-color:#f47165;
 }
 
 .nav-item:hover a {
     color:black
 }
 
-#login {
+.nav-item-login {
     border-style: outset; color: white;
     font-weight: bold;
 }
